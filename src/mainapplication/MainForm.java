@@ -68,7 +68,7 @@ public class MainForm {
 		submit.addActionListener(ev -> {
 			if (number1.getText().isEmpty() || number2.getText().isEmpty())
 				return;
-			lblNewLabel.setText("Result: " + Double.valueOf(number1.getText()) * Double.valueOf(number2.getText()));
+			lblNewLabel.setText("Result: " + Double.valueOf(number1.getText()) / Double.valueOf(number2.getText()));
 		});
 		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
 		groupLayout.setHorizontalGroup(
